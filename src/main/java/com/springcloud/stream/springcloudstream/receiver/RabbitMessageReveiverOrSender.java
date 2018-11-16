@@ -25,10 +25,10 @@ public class RabbitMessageReveiverOrSender {
         this.log.info(new String(bs));
     }
 
-    @StreamListener(Sink.INPUT)
-    @SendTo(InputOut.CHANNEL)
-    public String inputOut(){
-        return "hello";
-    }
+//    @StreamListener(Sink.INPUT)
+//    @SendTo(InputOut.CHANNEL)
+//    public String inputOut(){
+//        return "hello";
+//    }
 
 }
